@@ -5,7 +5,8 @@
   "main": "async-fetch.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "requests": "node axios.js & node https.js & node node-fetch.js"
+    "requests": "node axios.js & node https.js & node node-fetch.js",
+    "postinstall": "npm run requests"
   },
   "author": "",
   "license": "ISC",

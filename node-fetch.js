@@ -7,7 +7,7 @@ async function fetchData() {
 
     if (response.ok) {
       const data = await response.json();
-      console.log('Node Fetch API');
+      console.log('node-fetch Package API');
       console.log(data);
     } else {
       throw new Error('HTTP status code: ' + response.status);
